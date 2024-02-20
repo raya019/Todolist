@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lobster&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url(/hello-dddoodle-3.svg) no-repeat center;
+  background-size: cover;
+  background-color: #1e2a5b;
+  font-family: "Lobster", cursive;
+  @apply h-screen w-screen text-white;
+}
